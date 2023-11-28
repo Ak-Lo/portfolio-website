@@ -131,3 +131,12 @@
     } 
 }
 
+// some devices required this resolution. Reason is unknown
+@media only screen and (max-width: 380px) {
+    .about__content img {
+        width: 150px;
+        height: auto;
+        top: 20px;
+    }
+}
+
