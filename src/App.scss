@@ -15,7 +15,7 @@
 @media only screen and (max-width: 650px){
   .app {
     background-color: var(--clr-primary);
-    // gsg
+    overflow: hidden;
   }
   *{
     margin: 0;

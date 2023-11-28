@@ -3,7 +3,7 @@ import Navbar from "../navbar/Navbar";
 import { AiFillGithub, AiFillLinkedin, AiFillGitlab } from "react-icons/ai";
 import { VscProject } from "react-icons/vsc";
 import { Zoom } from "react-reveal";
-// import { Link } from "react-scroll";ff
+// import { Link } from "react-scroll";
 
 import "./home.scss";
 
@@ -64,11 +64,6 @@ const Home = () => {
             </a>
           </div>
         </div>
-        {/* <img
-          className="home__image"
-          src={image}
-          alt="image"
-        /> */}
       </div>
     </div>
   );

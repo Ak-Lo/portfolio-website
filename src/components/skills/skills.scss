@@ -36,6 +36,7 @@
     align-self: center;
     justify-content: center;
 
+
 }
 
 // QUALIFICATION SECTION STYLE ON SKILLS PAGE
@@ -254,9 +255,6 @@
 @media only screen and (max-width: 650px){
     .skills {
         position: relative;
-        height: auto;
-        // width: auto;
-        // display: none;
     }
     .skills__content {
         display: flex;
@@ -270,7 +268,6 @@
     .qualification__section__content {
         margin-top: 8rem;
         width: 100%;
-        // display: none;
     }
 
     .skills__title {
@@ -314,11 +311,6 @@
         margin-left: 2rem;
         margin-top: 1rem;
     }
-
- 
-
-    
-
 }
 
 
