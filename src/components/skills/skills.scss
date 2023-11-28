@@ -91,7 +91,7 @@
 }
 
 .education__title, .experience__title {
-    font-size: medium;
+    font-size: 14px;
 }
 
 .education__grid, .experience__grid {
@@ -260,6 +260,13 @@
     .skills__content {
         display: flex;
         flex-direction: column;
+        width: 90%;
+
+    }
+
+    .education__data, .experience__data {
+        grid-template-columns: 140px max-content 140px;
+        column-gap: 0.2rem;
     }
 
     .skills__left__border {
@@ -299,7 +306,8 @@
     .skills__buttons .tech__skill__titles {
         display: flex;    
         cursor: pointer;
-        width: 200px;
+        width: 180px;
+        font-size: 14px;
     }
 
     .skills__names {
