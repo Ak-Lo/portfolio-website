@@ -90,14 +90,14 @@ const Contact = () => {
           <div className="contact__middle__line"></div>
           <div className="contact__info">
             <div className="contact__details">
-              <CiPhone fontSize="33px" color="FFE082" />
+              <CiPhone fontSize="38px" color="FFE082" />
               <div className="__details">
                 <h3>Phone</h3>
                 <a href="tel:+995598184745">+995 598 18 47 45</a>
               </div>
             </div>
             <div className="contact__details">
-              <CiMail fontSize="33px" color="FFE082" />
+              <CiMail fontSize="38px" color="FFE082" />
               <div className="__details">
                 <h3>Email</h3>
                 <span>akaki.lomia@kiu.edu.ge</span>
@@ -108,7 +108,7 @@ const Contact = () => {
               <div className="__details">
                 <h3>Address</h3>
                 <span style={{ fontWeight: "200" }}>
-                  Vazha Pshavela Avenue, Block 5, Building 4.
+                  V. Pshavela Ave, Block 5, Bldg 4.
                   <br />
                   Tbilisi, Georgia
                 </span>
