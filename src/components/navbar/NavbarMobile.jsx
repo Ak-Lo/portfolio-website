@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { VscMenu, VscChromeClose } from "react-icons/vsc";
 import Logo from "./Logo";
 import NavlinksMobile from "./NavlinksMobile";
 
@@ -23,9 +23,12 @@ const NavbarMobile = () => {
       <nav className="navbar__menu__mobile">
         <NavlinksMobile isOpen={isOpen} handleOpen={handleOpen} />
         {isOpen ? (
-          <FaTimes className="hamburger__menu__icon" onClick={handleOpen} />
+          <VscChromeClose
+            className="hamburger__menu__icon"
+            onClick={handleOpen}
+          />
         ) : (
-          <FaBars className="hamburger__menu__icon" onClick={handleOpen} />
+          <VscMenu className="hamburger__menu__icon" onClick={handleOpen} />
         )}
       </nav>
     </>

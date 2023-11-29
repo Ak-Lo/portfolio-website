@@ -222,6 +222,12 @@
     }
  }
 
+ @media only screen and (max-width: 380px) {
+    .navbar__menu__mobile .nav__links__mobile {
+        padding-top: 25%;    
+    }
+}
+
 
 
 
