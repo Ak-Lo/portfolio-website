@@ -62,6 +62,7 @@ const Contact = () => {
                 placeholder="Email"
               />
               <textarea
+                style={{ resize: "vertical" }}
                 name="message"
                 className="input__fields"
                 onChange={(e) => setMessage(e.target.value)}
