@@ -24,7 +24,7 @@ const SideBar = () => {
           contactClicked: false,
         });
         break;
-      case window.scrollY >= 1400 && window.scrollY < 2000:
+      case window.scrollY >= 1400 && window.scrollY < 2100:
         setItemClicked({
           ...itemClicked,
           aboutClicked: false,
@@ -33,7 +33,7 @@ const SideBar = () => {
           contactClicked: false,
         });
         break;
-      case window.scrollY >= 2000 && window.scrollY < 3000:
+      case window.scrollY >= 2100 && window.scrollY < 2900:
         setItemClicked({
           ...itemClicked,
           aboutClicked: false,
@@ -42,7 +42,7 @@ const SideBar = () => {
           contactClicked: false,
         });
         break;
-      case window.scrollY >= 3001 && window.scrollY < 3750:
+      case window.scrollY >= 2900 && window.scrollY < 3500:
         setItemClicked({
           ...itemClicked,
           aboutClicked: false,
