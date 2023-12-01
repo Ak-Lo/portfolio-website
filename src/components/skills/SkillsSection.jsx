@@ -1,7 +1,5 @@
 import React from "react";
 import { useState, useRef } from "react";
-// import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-// import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { TfiServer } from "react-icons/tfi";
 import { GiSkills } from "react-icons/gi";
 

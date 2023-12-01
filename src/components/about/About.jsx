@@ -79,10 +79,15 @@ const About = () => {
             </div>
           </Fade>
           <Fade bottom distance={"100px"} duration={1000}>
-            <button className="about__button__resume">
+            <a
+              style={{ textDecoration: "none" }}
+              href={"../../assets/CV2023.pdf"}
+              target="_blank"
+              className="about__button__resume"
+            >
               resume
               <BsDownload fontSize="20px" />
-            </button>
+            </a>
           </Fade>
         </div>
       </div>
