@@ -81,7 +81,8 @@ const About = () => {
           <Fade bottom distance={"100px"} duration={1000}>
             <a
               style={{ textDecoration: "none" }}
-              href={"../../assets/CV2023.pdf"}
+              // href={"../../assets/CV2023.pdf"}
+              href="https://github.com/Ak-Lo/portfolio-website/blob/main/src/assets/CV2023.pdf"
               target="_blank"
               className="about__button__resume"
             >
