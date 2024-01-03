@@ -29,7 +29,7 @@ const Home = () => {
           <Fade bottom>
             <h1 className="home__myname">Akaki Lomia</h1>
           </Fade>
-          <Fade bottom distance={"100px"} duration={1000}>
+          <Fade bottom distance={"200px"} duration={1000}>
             <h3 className="home__description" style={{ fontSize: "18px" }}>
               Full Stack Web Developer
             </h3>
