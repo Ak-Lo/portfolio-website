@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../navbar/Navbar";
 import { AiFillGithub, AiFillLinkedin, AiFillGitlab } from "react-icons/ai";
 import { VscProject } from "react-icons/vsc";
-import { Zoom } from "react-reveal";
+import { Fade } from "react-reveal";
 // import { Link } from "react-scroll";
 
 import "./home.scss";
@@ -24,17 +24,21 @@ const Home = () => {
             <div className="line__before"></div>
             Home
           </h3>
-          <h3 className="home__hello">Hi, my name is</h3>
-          <Zoom left cascade duration={2000}>
-            <h1 className="home__myname">Akaki Lomia</h1>
-          </Zoom>
-          <h3 className="home__description">
-            A Full Stack Web Developer. Front-end focused Web Developer with a
-            solid knowledge of back-end. I’m a software engineer specializing in
-            building exceptional digital experiences. Currently, I’m focused on
-            building platform for connecting service providers and employers.
-          </h3>
 
+          <h3 className="home__hello">Hi, my name is</h3>
+          <Fade bottom>
+            <h1 className="home__myname">Akaki Lomia</h1>
+          </Fade>
+          <Fade bottom distance={"100px"} duration={1000}>
+            <h3 className="home__description" style={{ fontSize: "18px" }}>
+              Full Stack Web Developer
+            </h3>
+          </Fade>
+          <h3 className="home__description">
+            Highly experienced front-end focused ReactJS developer, specialized
+            in building creating and enhancing detail oriented, user-friendly,
+            adaptive and responsive web applications.
+          </h3>
           <button className="button__to__projects" onClick={scrollToProjects}>
             projects
             <VscProject fontSize={"20px"} />
