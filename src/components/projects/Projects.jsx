@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import MobileCarousel from "./MobileCarousel";
 import { Fade } from "react-reveal";
-
+//test
 const Projects = () => {
   return (
     <div className="projects" id="projects">
