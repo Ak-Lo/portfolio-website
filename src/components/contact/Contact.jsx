@@ -10,6 +10,8 @@ import { Fade } from "react-reveal";
 const Contact = () => {
   const [messageSent, setMessageSent] = useState(false);
   const [message, setMessage] = useState("");
+  const [userEmail, setUserEmail] = useState("");
+  const [userName, setUserName] = useState("");
   const form = useRef();
 
   useEffect(() => {
@@ -21,6 +23,9 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setUserEmail("");
+    setUserName("");
+    setMessage("");
 
     emailjs
       .sendForm(
@@ -49,24 +54,30 @@ const Contact = () => {
             Contact Me
           </h3>
         </Fade>
-        <div className="contact__send__email">
-          <Fade bottom>
+        <Fade bottom>
+          <div className="contact__send__email">
             <form ref={form} onSubmit={sendEmail}>
               <div className="contact__form">
                 <input
+                  autocomplete="off"
                   name="user_name"
                   type="text"
                   className="input__fields"
+                  onChange={(e) => setUserName(e.target.value)}
+                  value={userName}
                   placeholder="Name"
                 />
                 <input
+                  autocomplete="off"
                   name="user_email"
                   type="email"
                   className="input__fields"
+                  onChange={(e) => setUserEmail(e.target.value)}
+                  value={userEmail}
                   placeholder="Email"
                 />
                 <textarea
-                  style={{ resize: "vertical" }}
+                  style={{ resize: "vertical", minHeight: "40px" }}
                   name="message"
                   className="input__fields"
                   onChange={(e) => setMessage(e.target.value)}
@@ -92,9 +103,7 @@ const Contact = () => {
                 )}
               </div>
             </form>
-          </Fade>
-          <div className="contact__middle__line"></div>
-          <Fade bottom distance={"100px"} duration={1000}>
+            <div className="contact__middle__line"></div>
             <div className="contact__info">
               <div className="contact__details">
                 <CiPhone fontSize="38px" color="FFE082" />
@@ -122,8 +131,8 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </Fade>
-        </div>
+          </div>
+        </Fade>
       </div>
       <Footer />
     </div>

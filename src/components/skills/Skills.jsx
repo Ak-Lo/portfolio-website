@@ -8,9 +8,7 @@ const Skills = () => {
     <div className="skills" id="skills">
       <div className="skills__content">
         <QualificaitonSection />
-        {/* </Fade> */}
         <SkillsSection />
-        {/* </Fade> */}
       </div>
     </div>
   );
