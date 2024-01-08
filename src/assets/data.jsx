@@ -21,7 +21,7 @@ const projectDetails = [
     image: "/images/projectsImage3.jpg",
     description:
       "This is another very cool app which was also planned and developed for some good reasons",
-    link: "",
+    link: "https://github.com/Ak-Lo/dropdown-react-typescript",
   },
   {
     id: "4",
