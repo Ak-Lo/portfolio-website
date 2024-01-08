@@ -50,6 +50,7 @@
     
   }
 
+// dives with z-index: 1000 does noe work over react reveal without this line 
   .react-reveal{
     animation-fill-mode: backwards !important;
   }
