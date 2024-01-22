@@ -12,8 +12,8 @@ const projectDetails = [
     name: "Full Stack App",
     image: "/images/projectsImage2.jpg",
     description:
-      "This app is developed for learning purposes and uses all of the essential aspects of next.js and typescript",
-    link: "https://google.com",
+      "This app is developed for learning purposes and uses all of the essential aspects of react.js and typescript",
+    link: "https://github.com/Ak-Lo/blog-typescript",
   },
   {
     id: "3",
