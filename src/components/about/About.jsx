@@ -81,8 +81,8 @@ const About = () => {
           <Fade bottom distance={"100px"} duration={1000}>
             <a
               style={{ textDecoration: "none" }}
-              // href={"../../assets/CV2023.pdf"}
-              href="https://drive.google.com/file/d/1WXdp6B56gYqYf5FVhlcoTvLJmDzK5hCU/view?usp=sharing"
+              // href={require("../../assets/Akaki_Lomia_CV.pdf")}
+              href="https://github.com/Ak-Lo/portfolio-website/blob/main/src/assets/Akaki_Lomia_CV.pdf"
               target="_blank"
               className="about__button__resume"
             >
